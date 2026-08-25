@@ -1,0 +1,2 @@
+timestamp,gpu_name,compute_capability,cuda_version,kernel,M,N,K,warmup,iterations,median_ms,mean_ms,min_ms,p95_ms,gflops,max_abs_error,relative_l2_error,BM,BN,BK,TM,TN,block_threads,registers_per_thread,smem_bytes
+"2026-08-24 13:16:13","NVIDIA GeForce RTX 4090","8.9","12.2","k1",4096,4096,4096,20,100,290.829315,297.416110,222.691299,390.551636,472.575997,0.000000e+00,1.018558e-312,0,0,0,0,0,0,0,0
