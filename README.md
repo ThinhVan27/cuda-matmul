@@ -109,6 +109,7 @@ CV-HK252/
 |       ...
 └── src/
 	├── kernels/                        # kernel implementation
+    |   ├── cublas.cu
     |   ├── k1_naive.cu
     |   ├── k2_coalesced.cu
     |   ├── k3_smem_tiled.cu
@@ -118,7 +119,6 @@ CV-HK252/
     |   └── kernel_dispatch.cu
     ├── benchmark.cu             
     ├── correctness.cu
-    ├── cublas_reference.cu
     └── main.cu                         # main script
 ```
 ## 💫 7. Future Work
